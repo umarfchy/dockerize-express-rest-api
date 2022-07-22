@@ -1,0 +1,17 @@
+{
+  "name": "dockerize-express-rest-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/umarfchy/dockerize-express-rest-api.git",
+  "author": "Umar Chowdhury",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
