@@ -17,7 +17,7 @@ app.get("/surprise", (_, res) => {
 app.get("/dynamic/:id", (req, res) => {
   res
     .status(200)
-    .send({ message: "The route you specified is /dynamic" + req.params.id });
+    .send({ message: "The route you specified is /dynamic/" + req.params.id });
 });
 
 app.post("/headers", (req, res) => {
