@@ -3,6 +3,6 @@ services:
   api:
     build: .
     ports:
-      - "7001:8000"
+      - 7001:8000
     environment:
       - PORT=8000
