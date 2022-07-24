@@ -74,15 +74,21 @@ Now, we can make some requests to our express restful api with any rest api clie
 
 <img src="./demo/requests/req-02.png" alt="req-02.png"/>
 
-3. GET request to `http://localhost:7001/dynamic/100` 
+3. GET request to `http://localhost:7001/dynamic/100`
 
 <img src="./demo/requests/req-03.png" alt="req-03.png"/>
 
-4. POST request to `http://localhost:7001/headers` 
+4. POST request to `http://localhost:7001/headers` with a empty body `{}`
 
 <img src="./demo/requests/req-04.png" alt="req-04.png"/>
 
-5. POST request to `http://localhost:7001/body` 
+5. POST request to `http://localhost:7001/body` with the body 
+
+```json
+{
+    "Hello": "World"
+}
+```
 
 <img src="./demo/requests/req-05.png" alt="req-05.png"/>
 
