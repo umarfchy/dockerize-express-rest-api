@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  api:
+    build: .
+    ports:
+      - "7001:8000"
+    environment:
+      - PORT=8000
