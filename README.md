@@ -78,7 +78,7 @@ Now, we can make some requests to our express restful api with any rest api clie
 
 <img src="./demo/requests/req-03.png" alt="req-03.png"/>
 
-4. POST request to `http://localhost:7001/headers` with a empty body `{}`
+4. POST request to `http://localhost:7001/headers` with an empty body `{}`
 
 <img src="./demo/requests/req-04.png" alt="req-04.png"/>
 
